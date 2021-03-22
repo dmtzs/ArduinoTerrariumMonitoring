@@ -4,6 +4,10 @@
  You need to download the dht.h libary from adafruit but that is the only library that you need to download previously other libraries are already integrated in arduino´s IDE
  We will keep improving more the code in order to do more friendly the functionality
 
+## Libraries
+* Download and include dht.h library from adafruit
+* Include LiquidCrystal.h library
+
 ## Materials list
 * 16x2 LCD
 * dht22 sensor
