@@ -3,3 +3,15 @@
  
  You need to download the dht.h libary from adafruit but that is the only library that you need to download previously other libraries are already integrated in arduino´s IDE
  We will keep improving more the code in order to do more friendly the functionality
+
+## Materials list
+* 16x2 LCD
+* dht22 sensor
+* Active buzzer
+* Water sensor HR0043 or similar
+* 1 push button
+* Arduino uno
+* 10k potentiometer
+
+## Conecction diagram
+coming soon
