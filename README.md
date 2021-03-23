@@ -28,4 +28,4 @@ The part of the water sensor level is not showed in the LCD, this is measured in
 <br><br>
 
 ## Conecction diagram
-![](/Diagrama de conexion.png?raw=true "Optional Title")
+![Diagram-connection](https://raw.githubusercontent.com/dmtzs/ArduinoAguaDhtLCDBuzzer/master/Diagrama de conexion.png)
