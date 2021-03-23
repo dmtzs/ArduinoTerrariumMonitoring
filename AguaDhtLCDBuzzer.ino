@@ -36,7 +36,7 @@ void loop()
   lcd.setCursor(0, 1);
   lcd.print("Hum: ");
   lcd.print(h);
-  lcd.print("% WL: ");
+  lcd.print("%");
   lcd.print(valor);
 
   if(EstadoBoton==HIGH)
@@ -44,15 +44,15 @@ void loop()
     BandBoton= 1;
   }
 
-  if(valor<518 && BandBoton==0)
+  if(valor<200 && BandBoton==0)
   {
     digitalWrite(pinBuzzer, HIGH);//Se enciende buzzer
   }
-  else if(valor<518 && BandBoton==1)
+  else if(valor<200 && BandBoton==1)
   {
     digitalWrite(pinBuzzer, LOW);//Se apaga el buzzer
   }
-  else if(valor>518)
+  else if(valor>200)
   {
     BandBoton=0;
     digitalWrite(pinBuzzer, LOW);//Se apaga el buzzer
