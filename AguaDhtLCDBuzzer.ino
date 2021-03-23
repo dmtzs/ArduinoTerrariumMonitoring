@@ -16,7 +16,7 @@ void setup()
 {
   lcd.begin(16, 2 );
   dht.begin();
-  Serial.begin(9600);
+  //Serial.begin(9600);
   pinMode(pinBuzzer, OUTPUT);
   pinMode(8, INPUT);
 }
@@ -36,7 +36,8 @@ void loop()
   lcd.setCursor(0, 1);
   lcd.print("Hum: ");
   lcd.print(h);
-  lcd.print("%");
+  lcd.print("% WL: ");
+  lcd.print(valor);
 
   if(EstadoBoton==HIGH)
   {
@@ -56,6 +57,6 @@ void loop()
     BandBoton=0;
     digitalWrite(pinBuzzer, LOW);//Se apaga el buzzer
   }
-  Serial.print(BandBoton);
+  //Serial.print(BandBoton);
   delay(3000);//Para el sensor de temperatura y humedad, pero de igual manera afecta al de agua.
 }
