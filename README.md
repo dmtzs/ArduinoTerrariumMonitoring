@@ -15,6 +15,7 @@ The part of the water sensor level is not showed in the LCD, this is measured in
 * You need to install from the IDE the dht.h library from adafruit in order to read the dht sensor and include it in the program.
 * Include LiquidCrystal.h library for write in screen the temperature and humidity.
 * If you´re using s linux distribution to upload the file to the Arduino remember to enable the permissions of writing over the USB port.
+* The water level sensor has an analog output, verify the behaviour of your sensor and change the minimum value that corresponds to the variable named: valor in the part of the if´s.
 
 ## Sensor´s and materials list
 * 16x2 LCD
