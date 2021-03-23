@@ -24,6 +24,9 @@ The part of the water sensor level is not showed in the LCD, this is measured in
 * 1 push button
 * Arduino uno
 * 10k potentiometer
+
 <br>
+
 ## Conecction diagram
+
 ![](Diagrama-de-conexion.png)
