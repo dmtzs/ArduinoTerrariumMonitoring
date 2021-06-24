@@ -28,6 +28,8 @@ The part of the water sensor level is not showed in the LCD, this is measured in
 
 <br>
 
-## Conecction diagram
+## Connection diagram
 
 ![](Diagrama-de-conexion.png)
+
+# The project is complete
