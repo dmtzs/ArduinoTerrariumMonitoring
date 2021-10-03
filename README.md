@@ -1,11 +1,31 @@
-# ArduinoAguaDhtLCDBuzzer
- Arduino project in which a dht22 sensor is integrated for temperature and humidity detection, a water sensor along with a buzzer to monitor the terrarium of my pet, a snake
- 
+<p align="center">
+  <!--img width="200" src="https://github.com/dmtzs/DownYoutube/blob/master/ytImage.png"-->
+  <h1 align="center" style="margin: 0 auto 0 auto;">Terrarrium monitoring app</h1>
+  <h5 align="center" style="margin: 0 auto 0 auto;">Monitor the parameters of your terrarrium</h5>
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/github/last-commit/dmtzs/ArduinoTerrariumMonitoring">
+    <img src="https://img.shields.io/github/issues/dmtzs/ArduinoTerrariumMonitoring?label=issues">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dmtzs/ArduinoTerrariumMonitoring">
+    <img src="https://img.shields.io/github/stars/dmtzs/ArduinoTerrariumMonitoring">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/languages/code-size/dmtzs/ArduinoTerrariumMonitoring">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/dmtzs/ArduinoTerrariumMonitoring">
+  <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/dmtzs/ArduinoTerrariumMonitoring?label=total%20lines%20in%20repo">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dmtzs/ArduinoTerrariumMonitoring">
+</p>
+
+# The project
+ Arduino project in which a dht22 sensor is integrated for temperature and humidity detection, a water sensor along with a buzzer to monitor the terrarium of my pet, a snake.
+ <br>
  You need to download the dht.h libary from adafruit but that is the only library that you need to download previously other libraries are already integrated in arduino´s IDE
  We will keep improving more the code in order to do more friendly the functionality
 
 ## Arduino program
-The Arduino is used in order to acquire the parameters we want to show through the LCD that is humidity and temperature.
+The Arduino is used in order to acquire the parameters we want to show through the LCD that is humidity and temperature so you will not need to buy the analog humidity and temperature sensors that expensive and are not very precise, this is a modular solution for you.
 <br>
 The part of the water sensor level is not showed in the LCD, this is measured internally in order to let the arduino know when the arduino needs to turn on the buzzer.
 
@@ -31,5 +51,3 @@ The part of the water sensor level is not showed in the LCD, this is measured in
 ## Connection diagram
 
 ![](Diagrama-de-conexion.png)
-
-# The project is complete
