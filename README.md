@@ -1,5 +1,5 @@
 <p align="center">
-  <!--img width="200" src="https://github.com/dmtzs/DownYoutube/blob/master/ytImage.png"-->
+  <img width="300" src="https://github.com/dmtzs/ArduinoTerrariumMonitoring/blob/master/BoaEsmeraldaAppOriginal.png">
   <h1 align="center" style="margin: 0 auto 0 auto;">Terrarrium monitoring app</h1>
   <h5 align="center" style="margin: 0 auto 0 auto;">Monitor the parameters of your terrarrium</h5>
 </p>
