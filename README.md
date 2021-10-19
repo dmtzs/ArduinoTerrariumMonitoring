@@ -29,7 +29,7 @@ The Arduino is used in order to acquire the parameters we want to show through t
 <br>
 The part of the water sensor level is not showed in the LCD, this is measured internally in order to let the arduino know when the arduino needs to turn on the buzzer.
 
-### Installation, libraries and considerations
+### Specifications
 * First you need to use an Arduino uno board in order to use the same pins as the program, if not consider that you will need to change the default pins.
 * You need the IDE of Arduino for upload the Arduino program to your board.
 * You need to install from the IDE the dht.h library from adafruit in order to read the dht sensor and include it in the program.
